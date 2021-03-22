@@ -182,7 +182,7 @@ async def on_ready():
     await client.change_presence(activity=discord.Activity(type=discord.ActivityType.playing, name=" h!help - ⏰LEGDAY🌟UPDATE⏰"))
 
     # Schedule daily HENTEI
-    guild = client.get_guild(796469914151026718)
+    """guild = client.get_guild(796469914151026718)
     channel = discord.utils.get(guild.text_channels, name="daily-hentei")
     try:
         time = datetime.now() + timedelta(hours = 7)
@@ -191,7 +191,7 @@ async def on_ready():
         loop.run_until_complete()
     except:
         print("Daily hentei scheduled for "+str(time.strftime("%H:%M:%S"))+".")
-        channel = discord.utils.get(guild.text_channels, name="general")
+        channel = discord.utils.get(guild.text_channels, name="general")"""
         #await buildEmbedMessage("Connected!",["Are you ready for freddy?"],["Are you?"],discord.Color.blue(),"Set daily Hentei for "+str(time.strftime("%H:%M:%S"))+".",channel,[True])
 
     #channel = discord.utils.get(guild.text_channels, name="general")
