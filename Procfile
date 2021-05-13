@@ -1,1 +1,1 @@
-worker: python Hentei/main.py
+worker: python main.py
